@@ -5,6 +5,7 @@ export default class LoginForm extends React.Component {
     super();
 
     this.state = {};
+    this.handleFormSubmit = this.handleFormSubmit.bind(this);
   }
 
   render() {
