@@ -26,7 +26,7 @@ export default class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input id="test-username" type="text" name="username" value={this.state.username} onChange={this.handleInputChange.bind(this, 'username'} />
+            <input id="test-username" type="text" name="username" value={this.state.username} onChange={this.handleInputChange.bind(this, 'username')} />
           </label>
         </div>
         <div>
