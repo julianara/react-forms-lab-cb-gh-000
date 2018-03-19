@@ -12,7 +12,7 @@ export default class LoginForm extends React.Component {
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
   }
   
-  handleFormSubmit() {
+  handleFormSubmit(event) {
     
   }
   
