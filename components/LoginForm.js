@@ -13,7 +13,7 @@ export default class LoginForm extends React.Component {
   }
   
   handleFormSubmit(event) {
-    
+    event.preventDefault();
   }
   
   handleInputChange(field, event) {
