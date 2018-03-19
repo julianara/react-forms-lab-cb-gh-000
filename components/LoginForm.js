@@ -4,7 +4,10 @@ export default class LoginForm extends React.Component {
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {
+      username: '',
+      password: '',
+    };
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
   }
   
