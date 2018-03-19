@@ -9,7 +9,7 @@ export default class LoginForm extends React.Component {
 
   render() {
     return (
-      <form onHand>
+      <form onSubmit={this.handleFormSubmit}>
         <div>
           <label>
             Username
