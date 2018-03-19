@@ -32,7 +32,7 @@ export default class LoginForm extends React.Component {
         <div>
           <label>
             Password
-            <input id="test-password" type="password" name="password" value={this.state.password} onChange={this.handleInputChange.bind(this, 'password)'} />
+            <input id="test-password" type="password" name="password" value={this.state.password} onChange={this.handleInputChange.bind(this, 'password')} />
           </label>
         </div>
         <div>
