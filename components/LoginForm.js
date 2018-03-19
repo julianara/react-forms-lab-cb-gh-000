@@ -18,7 +18,7 @@ export default class LoginForm extends React.Component {
   
   handleInputChange(field, event) {
     this.setState({
-      [field]: event.target.value
+      [field]: event.target.value,
     });
   }
 
