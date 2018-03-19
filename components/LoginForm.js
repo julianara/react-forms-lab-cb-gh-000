@@ -15,6 +15,10 @@ export default class LoginForm extends React.Component {
   handleFormSubmit() {
     
   }
+  
+  handleInputChange() {
+    
+  }
 
   render() {
     return (
