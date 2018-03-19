@@ -16,7 +16,7 @@ export default class LoginForm extends React.Component {
     
   }
   
-  handleInputChange(event, ) {
+  handleInputChange(field, event) {
     
   }
 
